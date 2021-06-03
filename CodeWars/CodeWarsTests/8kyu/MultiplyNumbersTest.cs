@@ -1,13 +1,16 @@
 ﻿using CodeWars.CodeWars._8kyu;
 using NUnit.Framework;
 
-[TestFixture]
-public class MultiplyNumbersTest
+namespace CodeWars.CodeWarsTests._8kyu
 {
-    [Test]
-    public void ShouldMultiple()
+    [TestFixture]
+    public class MultiplyNumbersTest
     {
-        Assert.AreEqual(2, MultiplyNumbers.Multiply(2, 1));
-        Assert.AreEqual(8, MultiplyNumbers.Multiply(2, 4));
+        [Test]
+        public void ShouldMultipleTest_ShouldSucceed()
+        {
+            Assert.AreEqual(2, MultiplyNumbers.Multiply(2, 1));
+            Assert.AreEqual(8, MultiplyNumbers.Multiply(2, 4));
+        }
     }
 }
