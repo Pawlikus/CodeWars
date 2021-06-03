@@ -4,7 +4,7 @@
     {
         public static int MakeNegative(int number)
         {
-            return number<0 ? number : -number;
+            return number < 0 ? number : -number;
         }
     }
 }

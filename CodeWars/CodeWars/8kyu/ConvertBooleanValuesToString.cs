@@ -2,7 +2,7 @@
 {
     public class ConvertBooleanValuesToString
     {
-        public static string boolToWord(bool word)
+        public static string BoolToWord(bool word)
         {
             return word ? "Yes" : "No";
         }

@@ -8,7 +8,7 @@ namespace CodeWars.CodeWars._8kyu
         {
             var charArray = str.ToCharArray();
             Array.Reverse(charArray);
-           
+
             return new string(charArray);
         }
     }

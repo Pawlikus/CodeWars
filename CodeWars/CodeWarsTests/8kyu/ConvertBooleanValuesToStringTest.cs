@@ -7,21 +7,11 @@ namespace CodeWars.CodeWarsTests._8kyu
     public class ConvertBooleanValuesToStringTest
     {
         [Test]
-        public void boolToWordReturned1()
+        public void ConvertBooleanValuesToStringTest_ShouldSucceed()
         {
-            Assert.AreEqual("Yes", ConvertBooleanValuesToString.boolToWord(true));
-        }
-
-        [Test]
-        public void boolToWordReturned2()
-        {
-            Assert.AreEqual("No", ConvertBooleanValuesToString.boolToWord(false));
-        }
-
-        [Test]
-        public void boolToWordReturned3()
-        {
-            Assert.AreEqual("Yes", ConvertBooleanValuesToString.boolToWord(true));
+            Assert.AreEqual("Yes", ConvertBooleanValuesToString.BoolToWord(true));
+            Assert.AreEqual("No", ConvertBooleanValuesToString.BoolToWord(false));
+            Assert.AreEqual("Yes", ConvertBooleanValuesToString.BoolToWord(true));
         }
     }
 }
