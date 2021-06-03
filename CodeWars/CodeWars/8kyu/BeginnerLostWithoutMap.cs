@@ -6,7 +6,7 @@ namespace CodeWars.CodeWars._8kyu
     {
         public static int[] Maps(int[] x)
         {
-            return x.Select(n => n * n).ToArray();
+            return x.Select(n => n + n).ToArray();
         }
     }
 }
