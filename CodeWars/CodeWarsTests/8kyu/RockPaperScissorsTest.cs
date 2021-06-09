@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using CodeWars.CodeWars._8kyu;
+﻿using CodeWars.CodeWars._8kyu;
 using NUnit.Framework;
 
 namespace CodeWars.CodeWarsTests._8kyu
 {
-    class RockPaperScissorsTest
+    internal class RockPaperScissorsTest
     {
         [Test]
         public void Player1Win()

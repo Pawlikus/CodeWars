@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace CodeWars.CodeWars._8kyu
+﻿namespace CodeWars.CodeWars._8kyu
 {
-    class ConvertBooleanToString
+    internal class ConvertBooleanToString
     {
         public static string boolean_to_string(bool b)
         {

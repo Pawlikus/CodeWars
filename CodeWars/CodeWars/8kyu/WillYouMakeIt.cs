@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace CodeWars.CodeWars._8kyu
+﻿namespace CodeWars.CodeWars._8kyu
 {
-    class WillYouMakeIt
+    internal class WillYouMakeIt
     {
         public static bool ZeroFuel(uint distanceToPump, uint mpg, uint fuelLeft)
         {

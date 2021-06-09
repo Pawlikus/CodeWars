@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Linq;
 
 namespace CodeWars.CodeWars._8kyu
 {
-    class SumArrays
+    internal class SumArrays
     {
         public static double SumArray(double[] array)
         {

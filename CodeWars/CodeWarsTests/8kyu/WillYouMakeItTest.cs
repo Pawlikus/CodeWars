@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using CodeWars.CodeWars._8kyu;
+﻿using CodeWars.CodeWars._8kyu;
 using NUnit.Framework;
 
 namespace CodeWars.CodeWarsTests._8kyu
 {
-    class WillYouMakeItTest
+    internal class WillYouMakeItTest
     {
         [Test]
         public void SampleTest()

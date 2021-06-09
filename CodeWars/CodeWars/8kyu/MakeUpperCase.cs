@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace CodeWars.CodeWars._8kyu
+﻿namespace CodeWars.CodeWars._8kyu
 {
-    class MakeUpperCase
+    internal class MakeUpperCase
     {
         public static string MakeStringUpperCase(string str)
         {
