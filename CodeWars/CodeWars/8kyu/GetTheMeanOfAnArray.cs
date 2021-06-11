@@ -6,7 +6,7 @@ namespace CodeWars.CodeWars._8kyu
     {
         public static int GetAverage(int[] marks)
         {
-            return (int) marks.Average();
+            return (int)marks.Average();
         }
     }
 }

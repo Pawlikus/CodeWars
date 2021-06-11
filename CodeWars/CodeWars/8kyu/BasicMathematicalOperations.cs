@@ -10,12 +10,16 @@ namespace CodeWars.CodeWars._8kyu
             {
                 case '+':
                     return value1 + value2;
+
                 case '-':
                     return value1 - value2;
+
                 case '*':
                     return value1 * value2;
+
                 case '/':
                     return value1 / value2;
+
                 default:
                     throw new ArgumentException("Unknown operation:", operation.ToString());
             }

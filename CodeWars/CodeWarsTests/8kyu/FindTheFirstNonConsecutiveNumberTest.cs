@@ -8,7 +8,7 @@ namespace CodeWars.CodeWarsTests._8kyu
         [Test]
         public void SampleTest()
         {
-            Assert.AreEqual(6, FindTheFirstNonConsecutiveNumber.FirstNonConsecutive(new[] {1, 2, 3, 4, 6, 7, 8}));
+            Assert.AreEqual(6, FindTheFirstNonConsecutiveNumber.FirstNonConsecutive(new[] { 1, 2, 3, 4, 6, 7, 8 }));
         }
     }
 }

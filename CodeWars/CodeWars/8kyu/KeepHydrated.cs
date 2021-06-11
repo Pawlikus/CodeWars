@@ -4,7 +4,7 @@
     {
         public static int Litres(double time)
         {
-            return (int) time / 2;
+            return (int)time / 2;
         }
     }
 }

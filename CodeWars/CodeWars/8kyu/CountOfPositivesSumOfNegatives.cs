@@ -10,7 +10,7 @@ namespace CodeWars.CodeWars._8kyu
             var count = input.Count(n => n > 0);
             var sum = input.Where(n => n < 0).Sum();
 
-            int[] result = {count, sum};
+            int[] result = { count, sum };
             return result;
         }
     }

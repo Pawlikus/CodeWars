@@ -9,7 +9,7 @@ namespace CodeWars.CodeWarsTests._8kyu
         [Test]
         public void MyTest()
         {
-            Assert.AreEqual(new long[] {1, 3, 2, 5, 3}, ConvertNumberToReversedArrayOfDigits.Digitize(35231));
+            Assert.AreEqual(new long[] { 1, 3, 2, 5, 3 }, ConvertNumberToReversedArrayOfDigits.Digitize(35231));
         }
     }
 }

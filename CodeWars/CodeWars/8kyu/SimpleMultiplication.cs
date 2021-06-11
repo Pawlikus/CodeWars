@@ -1,6 +1,6 @@
 ﻿namespace CodeWars.CodeWars._8kyu
 {
-    internal class Multiplier
+    internal class SimpleMultiplication
     {
         public static int Multiply(int x)
         {
