@@ -9,7 +9,7 @@ namespace CodeWars.CodeWarsTests._8kyu
         [Test]
         public void SumPositives()
         {
-            Assert.AreEqual(16, SumWithoutHighestAndLowestNumber.Sum(new[] { 6, 2, 1, 8, 10 }));
+            Assert.AreEqual(16, SumWithoutHighestAndLowestNumber.Sum(new[] {6, 2, 1, 8, 10}));
         }
     }
 }

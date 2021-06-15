@@ -1,6 +1,6 @@
-﻿using CodeWars.CodeWars._8kyu;
+﻿using System.Collections.Generic;
+using CodeWars.CodeWars._8kyu;
 using NUnit.Framework;
-using System.Collections.Generic;
 
 namespace CodeWars.CodeWarsTests._8kyu
 {

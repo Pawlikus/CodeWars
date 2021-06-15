@@ -1,6 +1,6 @@
-﻿using CodeWars.CodeWars._8kyu;
+﻿using System;
+using CodeWars.CodeWars._8kyu;
 using NUnit.Framework;
-using System;
 
 namespace CodeWars.CodeWarsTests._8kyu
 {

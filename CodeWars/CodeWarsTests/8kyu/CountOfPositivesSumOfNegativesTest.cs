@@ -9,7 +9,7 @@ namespace CodeWars.CodeWarsTests._8kyu
         [Test]
         public void CountPositivesSumNegatives_BasicTest()
         {
-            int[] expectedResult = { 10, -65 };
+            int[] expectedResult = {10, -65};
 
             Assert.AreEqual(expectedResult,
                 CountOfPositivesSumOfNegatives.CountPositivesSumNegatives(new[]
@@ -19,7 +19,7 @@ namespace CodeWars.CodeWarsTests._8kyu
         [Test]
         public void CountPositivesSumNegatives_InputWithZeroes()
         {
-            int[] expectedResult = { 8, -50 };
+            int[] expectedResult = {8, -50};
 
             Assert.AreEqual(expectedResult,
                 CountOfPositivesSumOfNegatives.CountPositivesSumNegatives(new[]

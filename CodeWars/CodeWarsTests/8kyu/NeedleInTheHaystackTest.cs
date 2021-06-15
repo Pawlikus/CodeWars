@@ -9,7 +9,7 @@ namespace CodeWars.CodeWarsTests._8kyu
         [Test]
         public void NeedleInTheHaystackTest_ShouldSucceed()
         {
-            var haystack_1 = new object[] { '3', "123124234", null, "needle", "world", "hay", 2, '3', true, false };
+            var haystack_1 = new object[] {'3', "123124234", null, "needle", "world", "hay", 2, '3', true, false};
             var haystack_2 = new object[]
             {
                 "283497238987234", "a dog", "a cat", "some random junk", "a piece of hay", "needle",

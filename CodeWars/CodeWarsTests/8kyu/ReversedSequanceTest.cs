@@ -9,7 +9,7 @@ namespace CodeWars.CodeWarsTests._8kyu
         [Test]
         public void SampleTest()
         {
-            Assert.That(ReversedSequence.ReverseSeq(5), Is.EqualTo(new[] { 5, 4, 3, 2, 1 }));
+            Assert.That(ReversedSequence.ReverseSeq(5), Is.EqualTo(new[] {5, 4, 3, 2, 1}));
         }
     }
 }

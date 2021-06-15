@@ -9,7 +9,7 @@ namespace CodeWars.CodeWarsTests._8kyu
         [Test]
         public void CountingSheepTest_ShouldSucceed()
         {
-            var sheeps = new[] { true, false, true };
+            var sheeps = new[] {true, false, true};
 
             Assert.AreEqual(2, CountingSheep.CountSheeps(sheeps));
         }

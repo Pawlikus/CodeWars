@@ -6,7 +6,7 @@ namespace CodeWars.CodeWars._8kyu
     {
         public static double Index(int[] array, int n)
         {
-            int length = array.Length;
+            var length = array.Length;
             if (length - 1 < n) return -1;
             return Math.Pow(array[n], n);
         }

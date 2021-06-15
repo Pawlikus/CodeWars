@@ -6,7 +6,7 @@ namespace CodeWars.CodeWars._8kyu
     {
         public static long[] Digitize(long n)
         {
-            return $"{n}".Select(c => (long)c - '0').Reverse().ToArray();
+            return $"{n}".Select(c => (long) c - '0').Reverse().ToArray();
         }
     }
 }

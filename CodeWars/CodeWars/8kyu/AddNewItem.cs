@@ -6,7 +6,7 @@ namespace CodeWars.CodeWars._8kyu
     {
         public static List<int> AddExtra(List<int> listOfNumbers)
         {
-            List<int> finalList = listOfNumbers.ConvertAll(x => x);
+            var finalList = listOfNumbers.ConvertAll(x => x);
             finalList.Add(3);
             return finalList;
         }

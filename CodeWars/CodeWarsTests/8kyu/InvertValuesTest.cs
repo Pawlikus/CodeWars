@@ -9,10 +9,10 @@ namespace CodeWars.CodeWarsTests._8kyu
         [Test]
         public void InvertValuesTest_ShouldSucceed()
         {
-            Assert.AreEqual(new[] { -1, -2, -3, -4, -5 }, InvertValues.GetInvertedValues(new[] { 1, 2, 3, 4, 5 }));
-            Assert.AreEqual(new[] { -1, 2, -3, 4, -5 }, InvertValues.GetInvertedValues(new[] { 1, -2, 3, -4, 5 }));
+            Assert.AreEqual(new[] {-1, -2, -3, -4, -5}, InvertValues.GetInvertedValues(new[] {1, 2, 3, 4, 5}));
+            Assert.AreEqual(new[] {-1, 2, -3, 4, -5}, InvertValues.GetInvertedValues(new[] {1, -2, 3, -4, 5}));
             Assert.AreEqual(new int[] { }, InvertValues.GetInvertedValues(new int[] { }));
-            Assert.AreEqual(new[] { 0 }, InvertValues.GetInvertedValues(new[] { 0 }));
+            Assert.AreEqual(new[] {0}, InvertValues.GetInvertedValues(new[] {0}));
         }
     }
 }
